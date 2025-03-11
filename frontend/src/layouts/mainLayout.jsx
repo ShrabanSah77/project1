@@ -14,9 +14,7 @@ const MainLayout = () => {
           <Link to="/login" className="px-3">
             Login
           </Link>
-          <Link to="/register" className="px-3">
-            Register
-          </Link>
+          <Link to="/register">Register</Link>
         </nav>
       </header>
 
@@ -28,7 +26,7 @@ const MainLayout = () => {
       {/* Footer */}
 
       <footer className="bg-gray-800 text-white text-center p-3">
-        @ 2025 My App
+        This is my first web page
       </footer>
     </div>
   );
